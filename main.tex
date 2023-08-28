@@ -1,0 +1,96 @@
+% template source
+% https://tex.stackexchange.com/questions/38091/document-class-for-a-restaurant-menu
+
+\documentclass[12pt]{article}
+\usepackage[textwidth=12cm,centering]{geometry}
+\usepackage[x11names]{xcolor}
+\usepackage{background}
+
+\usepackage[scheme=plain]{ctex}
+\usepackage{array}
+
+
+\usepackage{etoolbox}
+% ifstrequal
+
+\newcommand*\wb[3]{%
+  {\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}#3}}
+
+% The page frame
+\SetBgColor{Goldenrod3}
+\SetBgAngle{0}
+\SetBgScale{1}
+\SetBgOpacity{1}
+\SetBgContents{%
+\begin{tikzpicture}
+\node at (0.5\paperwidth,0) {\wb{80}{34}{E}\rule[60pt]{.2\textwidth}{0.4pt}%
+  \raisebox{55pt}{%
+  \makebox[.6\textwidth]{\ \fontsize{24}{29}\selectfont\scshape Tipsy Gypsy}}%
+  \rule[60pt]{.2\textwidth}{0.4pt}\wb{80}{34}{F}};
+\node at (2,-0.5\textheight) {\rule{0.4pt}{.8\textheight}};
+\node at (19.5,-0.5\textheight) {\rule{0.4pt}{.8\textheight}};
+\node at (0.5\paperwidth,-\textheight) {\wb{80}{34}{G}\rule[-10pt]{\textwidth}{0.4pt}\wb{80}{34}{H}} ;
+\end{tikzpicture}%
+}
+
+% colorize text
+\newcommand*\ColText[1]{\textcolor{Goldenrod3}{#1}}
+
+% a tabular* for each food group
+% center a single column
+% https://tex.stackexchange.com/questions/5017/center-column-with-specifying-width-in-table-tabular-enviroment
+\newenvironment{Group}[1]
+   {
+    
+    \vspace*{2em}
+    \noindent \begin{tabular}{>{\centering\arraybackslash}p{\textwidth}}
+    \sffamily
+
+
+    \ifstrequal{#1}{cocktail}{
+     \fontsize{24}{29}\ColText{\scshape
+     鸡尾酒 Cocktails}\\[1.8em]
+    }
+
+    \ifstrequal{#1}{snack}{
+     \fontsize{24}{29}\ColText{\scshape
+     小吃 Snacks}\\[1.8em]
+    }
+      
+    \ttfamily
+    \ifstrequal{#1}{cocktail}{
+     调酒师就站在你对面，有任何问题都可以问他哦\\
+     Feel free to ask any questions to the bartender\\[2.5em]
+    }
+    
+    \ifstrequal{#1}{snack}{
+     小吃配酒，越喝越有 \\[2.5em]
+    }
+     
+   }
+   {\end{tabular}}
+
+
+% to format each entry
+\newcommand*\Entry[2]{%
+   {\fontsize{20}{40} \sffamily \scshape #1}  #2\\[0.5em]}
+
+% to format each line of chinese recipe 
+\newcommand*\Recipecn[1]{%
+  {\fontsize{12}{12} \sffamily #1} \\}
+% to format each line of english recipe 
+\newcommand*\Recipeen[1]{%
+  {\fontsize{11}{12} \ttfamily #1} \\[0.5em]}
+% to format each subentry
+\newcommand*\Expl[1]{%
+  \ttfamily \fontsize{12}{12} #1 \\[2em]}
+
+\pagestyle{empty}
+
+\begin{document}
+
+
+\input{sections/cocktails}
+% \input{sections/snacks}
+
+\end{document}
