@@ -1,0 +1,430 @@
+# # cocktail recipe
+# [[cocktails]]
+# name_en = "Scotch & Soda"
+# name_cn = "嗨爆"
+# price = 78
+# garnish = "lemon peel"
+# glassware = "highball"
+# instructions = """
+    # Build in a highball glass filled with ice. Garnish with a lemon peel."""
+# [cocktails.ingredients]
+    # items   = ["Tamnavulin Red Wine Cask Edition", "soda water"]
+    # amount  = [50, 100]
+    # unit    = ["ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["scotch", "soda water"]
+    # ingredients_cn = ["苏格兰威士忌", "苏打水"]
+    # description = """Highball 是日本发扬光大的，不过最近日本排核污水，再不想用日威调酒了"""
+
+# [[cocktails]]
+# name_en = "Gin & Tonic"
+# name_cn = "金汤力"
+# price = 78
+# garnish = "lime wedge"
+# glassware = "highball"
+# instructions = """
+    # Build in a highball glass filled with ice. Garnish with a lime wedge."""
+# [cocktails.ingredients]
+    # items   = ["gin", "lime juice", "tonic water"]
+    # amount  = [45, 2, 100]
+    # unit    = ["ml", "ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["gin", "lime juice", "tonic water"]
+    # ingredients_cn = ["金酒", "青柠汁", "汤力水"]
+    # description = """英国人的国饮，喝起来很清爽"""
+
+# [[cocktails]]
+# name_en = "Moscow Mule"
+# name_cn = "莫斯科骡子"
+# garnish = "lime wedge"
+# glassware = "moscow mule mug"
+# instructions = """
+    # Build in a moscow mule mug filled with ice. Garnish with a lime wedge."""
+# price = 78
+# [cocktails.ingredients]
+    # items   = ["vodka", "lime juice", "ginger beer"]
+    # amount  = [45, 15, 100]
+    # unit    = ["ml", "ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["vodka", "lime juice", "ginger beer"]
+    # ingredients_cn = ["伏特加", "青柠汁", "姜汁啤酒"]
+    # description = """
+    # 夏天就着铜杯喝一口莫斯科骡子，非常清爽。"""
+
+# # [[cocktails]]
+# # name_en = "Daiquiri"
+# # name_cn = "得其利"
+# # price = 78
+# # garnish = "lime wedge"
+# # glassware = "coupe"
+# # instructions = """
+# #     Shake all ingredients with ice and strain into a chilled coupe glass. Garnish with a lime wedge."""
+# # [cocktails.ingredients]
+# #     items   = ["white rum", "lime juice", "sugar syrup"]
+# #     amount  = [50, 30, 15]
+# #     unit    = ["ml", "ml", "ml"]
+# # [cocktails.menu]
+# #     ingredients = ["white rum", "lime juice", "sugar"]
+# #     ingredients_cn = ["白朗姆酒", "青柠汁", "糖"]
+# #     description = """古巴经典短饮，酸甜爽口"""
+# # 
+# # 
+# # 
+# # 
+# [[cocktails]]
+# name_en = "Happy Squirrel"
+# name_cn = "松鼠的快乐"
+# price = 78
+# garnish = "rosemary"
+# glassware = "coupe"
+# instructions = """
+    # Shake all ingredients with ice and strain into a chilled coupe glass. Garnish with a rosemary sprig."""
+# [cocktails.ingredients]
+    # items   = ["Frangelico", "lime juice", "lemon juice"]
+    # amount  = [45, 22.5, 22.5]
+    # unit    = ["ml", "ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["Frangelico", "lime juice", "lemon juice"]
+    # ingredients_cn = ["榛子利口酒", "青柠汁", "柠檬汁"]
+    # description = """一只松鼠，低头吃着坚果，抬头看到明亮的天空"""
+
+
+
+# [[cocktails]]
+# name_en = "Charlie Chaplin"
+# name_cn = "卓别林"
+# price = 78
+# garnish = "rosemary"
+# glassware = "coupe"
+# instructions = """
+    # Shake all ingredients with ice and strain into a chilled coupe glass. Garnish with a rosemary sprig."""
+# [cocktails.ingredients]
+    # items   = ["Berkshire sloe gin", "Giffard apricot brandy", "lime juice"]
+    # amount  = [30, 30, 30]
+    # unit    = ["ml", "ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["sloe gin", "apricot brandy", "lime juice"]
+    # ingredients_cn = ["黑刺李金酒", "黄杏利口酒", "青柠汁"]
+    # description = """向喜剧大师致敬的经典鸡尾酒，非常丰富的水果风味"""
+
+# [[cocktails]]
+# name_en = "Penicillin"
+# name_cn = "盘尼西林"
+# garnish = "ginger piece"
+# glassware = "old-fashioned"
+# price = 78
+# instructions = """
+    # Shake all ingredients with ice and strain into an ice-filled old-fashioned glass. Garnish with a piece of ginger."""
+# [cocktails.ingredients]
+    # items   = ["Dewar's 12 yo", "Big Peat", "lemon juice", "honey", "ginger"]
+    # amount  = [50, 5, 22.5, 10, 5]
+    # unit    = ["ml", "ml", "ml", "ml", "g"]
+# [cocktails.menu]
+    # ingredients = ["blended scotch", "Islay whisky", "lemon juice", "honey", "ginger"]
+    # ingredients_cn = ["苏格兰调和威士忌", "艾雷岛威士忌", "柠檬汁", "蜂蜜", "姜"]
+    # description = """现代经典，闻着就很上头，喝着是冰的回味又是暖的"""
+
+
+
+# [[cocktails]]
+# name_en = "Paper Plane"
+# name_cn = "纸飞机"
+# price = 78
+# garnish = "no garnish"
+# glassware = "coupe"
+# instructions = """
+    # Shake all ingredients with ice and strain into a chilled coupe glass."""
+# [cocktails.ingredients]
+    # items   = ["bourbon", "Aperol", "lemon juice", "amaro"]
+    # amount  = [22.5, 22.5, 22.5, 22.5]
+    # unit    = ["ml", "ml", "ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["bourbon", "Aperol", "lemon juice", "amaro"]
+    # ingredients_cn = ["波本威士忌", "阿佩罗", "柠檬汁", "阿玛罗"]
+    # description = """现代经典，酸甜苦烈的完美平衡"""
+
+
+
+# [[cocktails]]
+# name_en = "Boston Sour"
+# name_cn = "波士顿酸"
+# price = 88
+# garnish = "bitters"
+# glassware = "coupe"
+# instructions = """
+    # Shake all ingredients without ice (dry shake) then shake all ingredients with ice.  Strain into a chilled coupe glass. Garnish with a few drops of bitters."""
+# [cocktails.ingredients]
+    # items   = ["bourbon", "lemon juice", "sugar syrup", "egg white"]
+    # amount  = [50, 22.5, 10, 15]
+    # unit    = ["ml", "ml", "ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["bourbon", "lemon juice", "sugar syrup", "egg white"]
+    # ingredients_cn = ["波本威士忌", "柠檬汁", "糖", "蛋清"]
+    # description = """威士忌酸的基础上加入蛋清，绵密的口感，不会腥"""
+
+# [[cocktails]]
+# name_en = "Trinidad Sour"
+# name_cn = "特立尼达酸"
+# price = 98
+# garnish = "no garnish"
+# glassware = "coupe"
+# instructions = """
+    # Shake all ingredients with ice and strain into a chilled coupe glass."""
+# [cocktails.ingredients]
+    # items   = ["Angostura bitters", "orgeat", "lemon juice", "rye whiskey"]
+    # amount  = [40, 22.5, 22.5, 12]
+    # unit    = ["ml", "ml", "ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["Angostura bitters", "orgeat", "lemon juice", "rye whiskey"]
+    # ingredients_cn = ["安哥斯特拉苦精", "杏仁糖浆", "柠檬汁", "黑麦威士忌"]
+    # description = """非常有趣的一款，用了大量的苦精，但是喝起来却不苦，反而是酸甜的"""
+
+# [[cocktails]]
+# name_en = "Hanky-Panky"
+# name_cn = "(无法翻译)"
+# garnish = "orange peel"
+# glassware = "martini"
+# price = 88
+# instructions = """
+    # Stir all ingredients with ice and strain into a chilled martini glass. Garnish with an orange peel."""
+# [cocktails.ingredients]
+    # items = ["gin", "sweet vermouth", "Fernet-Branca"]
+    # amount = [45, 20, 5]
+    # unit = ["ml", "ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["gin", "sweet vermouth", "Fernet-Branca"]
+    # ingredients_cn = ["金酒", "甜味美思", "菲奈特"]
+    # description = """ 诞生于20纪初，Hanky-Panky 在当时的英语中是“非常棒“的意思，所以不好翻译"""
+
+
+# [[cocktails]]
+# name_en = "Old-Fashioned"
+# name_cn = "老式鸡尾酒"
+# price = 88
+# garnish = "orange peel"
+# glassware = "old-fashioned"
+# instructions = """
+    # Shake all ingredients with ice and strain into a chilled coupe glass. Garnish with a rosemary sprig."""
+# [cocktails.ingredients]
+    # items   = ["Knob Creek Rye", "sugar", "bitters"]
+    # amount  = [50, 0.5, 5]
+    # unit    = ["ml", "cube", "Dash"]
+# [cocktails.menu]
+    # ingredients = ["rye whiskey", "sugar", "bitters"]
+    # ingredients_cn = ["黑麦威士忌", "糖", "苦精"]
+    # description = """最开始 cocktail 指的就是这杯酒，用老派做法向祖师爷致意"""
+
+
+# [[cocktails]]
+# name_en = "God Grandfather"
+# name_cn = "你大爷"
+# garnish = "orange peel"
+# glassware = "old-fashioned"
+# instructions = """
+    # Build in an old-fashioned glass filled with ice. Garnish with an orange peel."""
+# price = 88
+# [cocktails.ingredients]
+    # items   = ["Knob Creek Rye", "Disaronno"]
+    # amount  = [45, 15]
+    # unit    = ["ml", "ml"]
+# [cocktails.menu]
+    # ingredients = ["rye whiskey", "amaretto"]
+    # ingredients_cn = ["黑麦威士忌", "杏仁利口酒"]
+    # description = """
+    # 比教父还要教父，所以叫你大爷。"""
+
+# [[cocktails]]
+# name_en = "Bellini"
+# name_cn = "桃之夭夭"
+# price = 78
+# garnish = "no garnish"
+# glassware = "flute"
+# instructions = """
+#     Pour peach puree into a chilled flute glass and top with sparkling wine."""
+# [cocktails.ingredients]
+#     items = ["peach puree", "sparkling wine"]
+#     amount = [45, 100]
+#     unit = ["ml", "ml"]
+# [cocktails.menu]
+#     ingredients = ["peach puree", "sparkling wine"]
+#     ingredients_cn = ["自制桃子果泥", "起泡酒"]
+#     description = """
+#     把应季新鲜桃子的风味表达出来"""
+# 
+# [[cocktails]]
+# name_en = "Gin Rickey"
+# name_cn = "元气大红袍"
+# price = 88
+# garnish = "lime wedge"
+# glassware = "highball"
+# instructions = """
+#     Build in a highball glass filled with ice. Garnish with a lime wedge."""
+# [cocktails.ingredients]
+#     items   = ["gin", "lime juice", "soda water"]
+#     amount  = [45, 5, 90]
+#     unit    = ["ml", "ml", "ml"]
+# [cocktails.menu]
+#     ingredients = ["da hong pao gin", "lime juice", "soda water"]
+#     ingredients_cn = ["大红袍金酒", "青柠汁", "苏打水"]
+#     description = """用成年人的方式喝茶"""
+
+
+# [[cocktails]]
+# name_en = "Gin Basil Smash"
+# name_cn = "罗勒"
+# price = 78
+# garnish = "basil leaf"
+# glassware = "old-fashioned"
+# instructions = """
+#     Shake all ingredients with ice and strain into an ice-filled old-fashioned glass. Garnish with a basil leaf."""
+# [cocktails.ingredients]
+#     items   = ["gin", "lemon juice", "simple syrup", "basil"]
+#     amount = [45, 30, 15, 6]
+#     unit = ["ml", "ml", "ml", "leaf"]
+# [cocktails.menu]
+#     ingredients = ["gin", "lemon juice", "sugar", "basil"]
+#     ingredients_cn = ["金酒", "柠檬汁", "糖", "罗勒"]
+#     description = """德国最受欢迎的鸡尾酒"""
+# 
+# [[cocktails]]
+# name_en = "Dark 'n' Stormy"
+# name_cn = "黑夜风暴"
+# price = 78
+# garnish = "lime wedge"
+# glassware = "highball"
+# instructions = "Pull ginger beer into a highball glass filled with ice. Float dark rum on top by pouring it over the back of a bar spoon."
+# [cocktails.ingredients]
+#     items = ["dark rum", "ginger beer"]
+#     amount = [45, 120]
+#     unit = ["ml", "ml"]
+# [cocktails.menu]
+#     ingredients = ["dark rum", "ginger beer", "lime"]
+#     ingredients_cn = ["黑朗姆酒", "姜汁啤酒", "青柠"]
+#     description = """黑朗姆酒，姜汁啤酒，热带风情"""
+# 
+# 
+# 
+# [[cocktails]]
+# name_en = "Ramos Gin Fizz"
+# name_cn = "拉莫斯今非死"
+# price = 88
+# garnish = "no garnish"
+# glassware = "highball"
+# instructions = """
+#     Shake all ingredients with ice and strain into a chilled highball glass. Top with soda water."""
+# [cocktails.ingredients]
+#     items   = ["gin", "lime juice", "lemon juice", "simple syrup", "egg white", "cream", "orange flower water", "soda water"]
+#     amount  = [45, 15, 15, 15, 15, 30, 3, 60]
+#     unit    = ["ml", "ml", "ml", "ml", "ml", "ml", "ml", "ml"]
+# [cocktails.menu]
+#     ingredients = ["gin", "lime juice", "lemon juice", "sugar", "egg white", "cream", "orange flower water", "soda water"]
+#     ingredients_cn = ["金酒", "青柠汁", "柠檬汁", "糖", "蛋清", "奶油", "橙花水", "苏打水"]
+#     description = """酸奶质感，柑橘香气，口感绵密，回味清香"""
+# 
+# 
+# [[cocktails]]
+# name_en = "Oppenheimer Martini"
+# name_cn = "奥本海默马天尼"
+# price = 88
+# garnish = "honey-lime rim"
+# glassware = "martini"
+# instructions = """
+#     Stir all the ingrediens in a mixing glass with ice and strain into a chilled martini glass with a honey-lime rim."""
+# [cocktails.ingredients]
+#     items   = ["gin", "dry vermouth", "lime juice", "honey"]
+#     amount  = [60, 5, 5, 5]
+#     unit    = ["ml", "ml", "ml", "ml"]
+# [cocktails.menu]
+#     ingredients = ["gin", "dry vermouth", "lime juice", "honey"]
+#     ingredients_cn = ["金酒", "干味美思", "青柠汁", "蜂蜜"]
+#     description = """原子弹之父奥本海默的最爱。酒感度高，杯口的青柠汁和蜂蜜使其入口更加柔和"""
+
+
+[[cocktails]]
+name_en = "Give Me a Hot One"
+name_cn = "来杯热的"
+price = 78
+garnish = "No garnish"
+glassware = "Latte Cup"
+instructions = """ 
+    """
+[cocktails.ingredients]
+    items   = ["Frangelico", "Coffee liqueur", "milk"]
+    amount  = ["15","15","100"]
+    unit    = ["ml", "ml", "ml", ]
+[cocktails.menu]
+    ingredients = ["Frangelico", "Coffee liqueur", "milk"]
+    ingredients_cn = ["榛子利口酒", "咖啡利口酒", "牛奶"]
+    description = """2021年创作的冬季热饮，本来想起个名字，后来实在相不到，就放弃了"""
+
+
+[[cocktails]]
+name_en = "Mulled Wine"
+name_cn = "热红酒"
+price = 68
+garnish = "Fruits and Spices"
+glassware = "Irish Coffee Cup"
+instructions = """ 
+"""
+[cocktails.ingredients]
+    items   = ["wine", "cinnamon", "clove", "star anise",  "ginger", "lemon", "apple", "pear", "orange", "honey","rock candy"]
+    amount  = [750,]
+    unit    = []
+[cocktails.menu]
+    ingredients = ["wine", "cinnamon", "clove", "star anise",  "ginger", "lemon", "apple", "pear", "orange", "honey","rock candy"]
+    ingredients_cn = ["红酒", "肉桂", "丁香", "八角", "姜", "柠檬", "苹果", "梨", "橙", "蜂蜜", "冰糖"]
+    description = """欧洲圣诞季畅销热饮，男女老少皆宜"""
+
+[[cocktails]]
+name_en = "Hot Toddy"
+name_cn = "热托蒂"
+price = 78
+garnish = "Cinnamon stick"
+glassware = "Irish Coffee Cup"
+instructions = """ 
+    Pour the honey, boiling water, and whiskey into a mug. Spice it with the cloves and cinnamon, and put in the slice of lemon. Let the mixture stand for 5 minutes so the flavors can mingle, then sprinkle with a pinch of nutmeg before serving."""
+[cocktails.ingredients]
+    items   = ["whisky", "lemon", "honey", "cinnamon stick"]
+    amount  = [50, 10, 10, 1]
+    unit    = ["ml", "ml", "ml", "stick"]
+[cocktails.menu]
+    ingredients = ["whisky", "lemon", "honey", "cinnamon"]
+    ingredients_cn = ["威士忌", "柠檬", "蜂蜜", "肉桂"]
+    description = """英伦传统冬季热饮，感冒生病，多喝热酒"""
+
+
+
+# [[cocktails]]
+# name_en = "Piña Colada"
+# name_cn = "椰林飘香"
+# price = 78
+# garnish = "pineapple wedge"
+# glassware = "hurricane"
+# instructions = """
+#     Shake all ingredients with ice and strain into a chilled hurricane glass. Garnish with a pineapple wedge."""
+# [cocktails.ingredients]
+#     items = ["white rum", "pineapple juice", "coconut cream"]
+#     amount = [30, 90, 30]
+#     unit = ["ml", "ml", "ml"]
+# [cocktails.menu]
+#     ingredients = ["white rum", "pineapple juice", "coconut cream"]
+#     ingredients_cn = ["白朗姆", "菠萝汁", "椰浆"]
+#     description = """波多黎各国民饮料，菠萝椰子，热带风情"""
+
+
+# [[cocktails]]
+# name_en = "Piña Colada"
+# name_cn = "椰林飘香"
+# price = 78
+# garnish = "pineapple wedge"
+# glassware = "hurricane"
+# instructions = """
+#     Shake all ingredients with ice and strain into a chilled hurricane glass. Garnish with a pineapple wedge."""
+# [cocktails.ingredients]
+#     items = ["white rum", "pineapple juice", "coconut cream"]
+#     amount = [30, 90, 30]
+#     unit = ["ml", "ml", "ml"]
+# [cocktails.menu]
+#     ingredients = ["white rum", "pineapple juice", "coconut cream"]
+#     ingredients_cn = ["白朗姆", "菠萝汁", "椰浆"]
+#     description = """波多黎各国民饮料，菠萝椰子，热带风情"""
